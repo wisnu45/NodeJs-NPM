@@ -1,0 +1,30 @@
+{
+    "name": "belajar-npm",
+    "version": "1.0.0",
+    "description": "hari jumaat kita belajar nodejs",
+    "main": "NamaBuah.js",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "scripts": {
+        "start": "node NamaBuah.js",
+        "run": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "exports": {
+        ".": "./index.js",
+        "./write": "./write.js"
+    },
+    "dependencies": {
+        "lodash": "4.17.21"
+    },
+    "devDependencies": {
+        "qunit": "2.19.2"
+    },
+    "author": "Pedagang",
+    "license": "ISC",
+    "homepage": "https://hellosehat.com",
+    "keywords": ["hellosehat", "sehat", "buah"],
+    "type": "module"
+}
